@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflorestar.plantas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/NATIVIDADES.png" alt="Logo do Site" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="form.html">Formulário</a></li>
+                <li><a href="about.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Faça o orçamento do seu reflorestamento</h2>
+        <form action="formAction.html" method="GET" onsubmit="return validarFormulario()">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="contato">Contato:</label>
+            <input type="text" id="contato" name="contato"  required><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+<br/>
+        <img src="images/NATIVIDADES.png" alt="Logo do Site" class="logo">
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
